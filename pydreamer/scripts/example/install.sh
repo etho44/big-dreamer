@@ -8,3 +8,7 @@ pip install -r requirements.txt
 
 # pip install -e git+https://github.com/jurgisp/gym-minigrid.git#egg=gym-minigrid --src ../  # checkout for local development
 # pip install -e git+https://github.com/jurgisp/gym-miniworld.git#egg=gym-miniworld --src ../  # checkout for local development
+
+
+# Run minigrid
+python train.py --configs defaults minigrid --env_id MiniGrid-MazeS11N-v0
